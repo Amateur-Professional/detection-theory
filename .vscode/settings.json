@@ -1,0 +1,12 @@
+{
+    "[makefile]": {
+        "editor.insertSpaces": false
+    },
+    {
+        "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+        "[makefile]": {
+            "editor.insertSpaces": false,
+            "editor.detectIndentation": false
+        }
+    }
+}
