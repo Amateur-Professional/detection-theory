@@ -20,4 +20,4 @@ def to_db(power, reference=1.0):
     power = np.asarray(power, dtype=float)
     if np.any(power <= 0):
         raise ValueError("power must be strictly positive")
-    return 20.0 * np.log10(power / reference)
+    return 10.0 * np.log10(power / reference)
