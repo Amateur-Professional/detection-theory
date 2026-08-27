@@ -21,3 +21,6 @@ def to_db(power, reference=1.0):
     if np.any(power <= 0):
         raise ValueError("power must be strictly positive")
     return 10.0 * np.log10(power / reference)
+
+def _scratch( x ):
+    y=1
